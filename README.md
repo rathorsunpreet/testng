@@ -1,24 +1,49 @@
 # Selenium - TestNG Project
 
-Selenium project to test the DOM Elements of the site [Art of Testing](https://artoftesting.com/samplesiteforselenium) using TestNG and Maven.
+Selenium project to perform cross-browser test of DOM Elements of the site [Art of Testing](https://artoftesting.com/samplesiteforselenium) using TestNG and Maven.
 
 ## Requirements
 
 This project requires the following to execute:
 
-+ Eclipse
++ Eclipse (with TestNG Plugin)
 + Maven 3.9.5
-+ Selenium 4.14.1
 + Java 21
 
 ## Installation
 
-ToAdd
+To install the project, perform the following steps:
+
+1. Go to [Repository](https://github.com/rathorsunpreet/testng).
+2. Click on Code -> Download as Zip.
+3. Unzip the file.
+4. Open Eclipse.
+5. Click on `File -> Import -> Existing Projects into Workspace`.
+6. In the new Dialog Box, select "Select Root Directory".
+7. Click on Browse and set the root as the unzipped directory.
+8. Make sure that the project is selected under "Projects" list.
+9. Click Finish.
+
+
+## Usage
+
+To execute the project, perform the following steps:
+
+1. Open Eclipse and make sure the project is active.
+2. Click on `Run -> Run Configurations...` .
+3. Select TestNG and then either right click and select "New Configuration" or click on the button "New Launch Configuration" located above the search bar.
+4. On the newly opened dialog on the right-hand side, give the config a "Name".
+5. Under the "Test" tab, select the "Project" using the "Browse" button.
+6. Under "Run...", select "Suite" and set it to "TestNGSuite.xml" provided with the project using "Browse".
+7. Click Apply.
+8. Click Run.
+
+To execute the project anytime, just go to `Run -> Run Configurations... -> (Your new Test Config) -> Run`.
 
 ## Videos
 
-+ 1
-+ 2
++ [Selenium Web Driver](https://www.youtube.com/watch?v=sryHxDWeVfA)
++ [Selenium IDE](https://www.youtube.com/watch?v=uk01c8UST4g)
 
 ## Missing Features
 
