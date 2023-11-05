@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">ChromeTest</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">35,711</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ChromeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">selenium.testng.PageTest</td><td><a href="#m0">checkMaleRadioButton</a></td><td rowspan="1">1699146121636</td><td rowspan="1">1163</td></tr><tr class="failedeven"><td><a href="#m1">checkOnClickSubmitButton</a></td><td rowspan="1">1699146122805</td><td rowspan="1">1262</td></tr><tr><th colspan="4">ChromeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="12">selenium.testng.PageTest</td><td><a href="#m2">checkAlertBoxButton</a></td><td rowspan="1">1699146118773</td><td rowspan="1">185</td></tr><tr class="passedeven"><td><a href="#m3">checkAutomationCheckBox</a></td><td rowspan="1">1699146120098</td><td rowspan="1">318</td></tr><tr class="passedeven"><td><a href="#m4">checkBoldText</a></td><td rowspan="1">1699146118963</td><td rowspan="1">54</td></tr><tr class="passedeven"><td><a href="#m5">checkConfirmBoxButton</a></td><td rowspan="1">1699146120418</td><td rowspan="1">358</td></tr><tr class="passedeven"><td><a href="#m6">checkDoubleClickButton</a></td><td rowspan="1">1699146119018</td><td rowspan="1">226</td></tr><tr class="passedeven"><td><a href="#m7">checkDropDown</a></td><td rowspan="1">1699146120777</td><td rowspan="1">808</td></tr><tr class="passedeven"><td><a href="#m8">checkFemaleRadioButton</a></td><td rowspan="1">1699146119246</td><td rowspan="1">291</td></tr><tr class="passedeven"><td><a href="#m9">checkHoverSubmitButton</a></td><td rowspan="1">1699146119538</td><td rowspan="1">58</td></tr><tr class="passedeven"><td><a href="#m10">checkLinkAddress</a></td><td rowspan="1">1699146121586</td><td rowspan="1">49</td></tr><tr class="passedeven"><td><a href="#m11">checkPerformanceCheckBox</a></td><td rowspan="1">1699146119607</td><td rowspan="1">269</td></tr><tr class="passedeven"><td><a href="#m12">checkTextBox</a></td><td rowspan="1">1699146124085</td><td rowspan="1">44</td></tr><tr class="passedeven"><td><a href="#m13">setupTextBox</a></td><td rowspan="1">1699146119877</td><td rowspan="1">217</td></tr></tbody>
+</table>
+<h2>ChromeTest</h2><h3 id="m0">selenium.testng.PageTest#checkMaleRadioButton</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input id=&quot;male&quot; type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;male&quot;&gt; is not clickable at point (34, 6). Other element would receive the click: &lt;img class=&quot;header-image is-logo-image&quot; alt=&quot;ArtOfTesting&quot; src=&quot;https://artoftesting.com/wp-content/uploads/2019/12/cropped-artoftesting-logo.png&quot; title=&quot;ArtOfTesting&quot; width=&quot;200&quot; height=&quot;40&quot;&gt;
+  (Session info: headless chrome=119.0.6045.105)
+Build info: version: &apos;4.14.1&apos;, revision: &apos;03f8ede370&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [edd71b4be8c0bcda95f90dc87fa48193, clickElement {id=DA17378A180F9E9C334B00DF459965AF_element_78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.105, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\tiger\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62595}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62595/devtoo..., se:cdpVersion: 119.0.6045.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (edd71b4be8c0bcda95f90dc87fa48193)] -&gt; css selector: *[name=&apos;gender&apos;]]
+Session ID: edd71b4be8c0bcda95f90dc87fa48193
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at selenium.testng.PageObject.toggleRadioButtons(PageObject.java:122)
+	at selenium.testng.PageTest.checkMaleRadioButton(PageTest.java:103)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">selenium.testng.PageTest#checkOnClickSubmitButton</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;idOfButton&quot; title=&quot;Hovering over me!!&quot; type=&quot;button&quot; onclick=&quot;this.style.background=&apos;blue&apos;;&quot;&gt;...&lt;/button&gt; is not clickable at point (139, 22). Other element would receive the click: &lt;img class=&quot;header-image is-logo-image&quot; alt=&quot;ArtOfTesting&quot; src=&quot;https://artoftesting.com/wp-content/uploads/2019/12/cropped-artoftesting-logo.png&quot; title=&quot;ArtOfTesting&quot; width=&quot;200&quot; height=&quot;40&quot;&gt;
+  (Session info: headless chrome=119.0.6045.105)
+Build info: version: &apos;4.14.1&apos;, revision: &apos;03f8ede370&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [edd71b4be8c0bcda95f90dc87fa48193, clickElement {id=DA17378A180F9E9C334B00DF459965AF_element_82}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.105, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\tiger\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62595}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62595/devtoo..., se:cdpVersion: 119.0.6045.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (edd71b4be8c0bcda95f90dc87fa48193)] -&gt; id: idOfButton]
+Session ID: edd71b4be8c0bcda95f90dc87fa48193
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+	at selenium.testng.PageObject.clickSubmitButton(PageObject.java:94)
+	at selenium.testng.PageTest.checkOnClickSubmitButton(PageTest.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">selenium.testng.PageTest#checkAlertBoxButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">selenium.testng.PageTest#checkAutomationCheckBox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">selenium.testng.PageTest#checkBoldText</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">selenium.testng.PageTest#checkConfirmBoxButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">selenium.testng.PageTest#checkDoubleClickButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">selenium.testng.PageTest#checkDropDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">selenium.testng.PageTest#checkFemaleRadioButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">selenium.testng.PageTest#checkHoverSubmitButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">selenium.testng.PageTest#checkLinkAddress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">selenium.testng.PageTest#checkPerformanceCheckBox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">selenium.testng.PageTest#checkTextBox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">selenium.testng.PageTest#setupTextBox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
