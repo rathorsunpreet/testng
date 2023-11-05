@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="Suite">
-  <!--
   <test name="FirefoxTest">
     <parameter name="browser" value="Firefox" />
     <classes>
@@ -19,7 +18,6 @@
       </methods>
     </classes>
   </test>
-  -->
 	<test name="ChromeTest">
 		<parameter name="browser" value="Chrome" />
 		<classes>
