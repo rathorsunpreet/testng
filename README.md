@@ -2,6 +2,9 @@
 
 Selenium project to perform cross-browser test of DOM Elements of the site [Art of Testing](https://artoftesting.com/samplesiteforselenium) using TestNG and Maven.
 
+Selenium IDE Demo: https://www.youtube.com/watch?v=uk01c8UST4g
+Selenium Demo: https://www.youtube.com/watch?v=sryHxDWeVfA
+
 ## Requirements
 
 This project requires the following to execute:
